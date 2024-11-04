@@ -6,3 +6,11 @@ img{
 .card{
     padding: 1em;
 }
+
+body{
+    background-color: #94c7e8;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
