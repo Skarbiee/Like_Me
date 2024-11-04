@@ -1,0 +1,60 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+header {
+    border: solid 2px red;
+}
+
+main {
+    border: solid 2px aqua;
+}
+
+section {
+    border: solid 2px orchid;
+}
+
+article {
+    border: solid 2px grey;
+}
+
+div{
+    border:solid 2px black;
+}
+
+img {
+    border: solid 2px blue;
+}
+
+nav {
+    border: solid 2px green;
+}
+
+h1, h3{
+    border: solid 2px magenta;
+}
+
+p{
+    border:solid 2px brown;
+}
+
+span{
+    border:solid 2px sandybrown;
+}
+
+fieldset.dd{
+    border: solid 2px pink;
+}
+
+blockquote{
+    border: solid 2px  aquamarine;
+}
+
+table {
+    border: solid 2px black;
+}
+
+footer {
+    border: solid 2px #78BE20;
+}
