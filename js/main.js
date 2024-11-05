@@ -1,9 +1,14 @@
-const switchjaime = document.querySelectorAll('#icone');
+// Sélectionne tous les éléments avec l'id icone
+const switchjaime = document.querySelectorAll('#icone'); 
 
-switchjaime.forEach(icon => {
+// Ajoute un écouteur pour chaque icone
+// Sélectionne le <span> suivant l'icône
+// Ajoute ou retire la classe text-info
+// Bascule entre fa-regular et fa-solid
+switchjaime.forEach(icon => {                       
     icon.addEventListener('click', function () {
-        const spanText = this.nextElementSibling;  // Sélectionne le <span> suivant l'icône
-        spanText.classList.toggle('text-info');
-        this.classList.toggle('fa-solid');
+        const likeText = this.nextElementSibling;   
+        likeText.classList.toggle('text-info');     
+        this.classList.toggle('fa-solid');          
     });
 });
